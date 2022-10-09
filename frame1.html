@@ -13,14 +13,6 @@
         -webkit-font-smoothing: none;
         -moz-osx-font-smoothing: grayscale;
     }
-    
-    #top {
-      height: 75px;
-      min-height: 75px;
-    }
-    #win98 {
-      padding-top: 75px;
-    }
 
     
     #start-bar {
@@ -38,7 +30,7 @@
     
     #all-windows {
         position: absolute;
-        top: 0;
+        top: 75;
         left: 0;
         width: 100%;
         z-index: 99999999;
@@ -191,7 +183,7 @@
     }
     #desktop {    
         position: absolute;
-        top: 0;
+        top: 75;
         padding: 0.5rem;
         flex-wrap: wrap;
         width: auto;
@@ -1448,9 +1440,6 @@
     </script>
     
   <body>
-    
-<div id="top"></div>
-<div id="win98">
   <form id="windows">
     <!-- Login and Shutdown -->
     <input type="checkbox" id="login-screen-input" name="login-screen-input" />
@@ -1857,7 +1846,5 @@
         <div id="time-options"></div>
     </div>
   </form>
-</div>
-
   </body>
 </html>
